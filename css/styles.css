@@ -6,14 +6,30 @@
 */
 
 * {
-    outline: 1px dotted black;
+  outline: 1px dotted black;
 }
 
 /* Doodle Stage */
 #stage {
-  background: #ccc;
+  /*background: #ccc; 
+  The height and width can be adjusted*/
   height: 300px;
   width: 600px;
+  position: relative;
+}
+/* Moves H1 Out of scren (First Animation Panel) */
+#stage h1 {
+  position: absolute;
+  bottom: 0px;
+  left: -200px;
+  opacity: 0;
+}
+
+/* Moves H1 Into the scren (Last Animation Panel) */
+#stage:hover h1 {
+  left: 0px;
+  transition: left 1.5s;
+  opacity: 1;
 }
 
 #heart1 {
