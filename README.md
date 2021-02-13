@@ -1,6 +1,6 @@
 # Lucky Items from Around the World Google Doodle
 
-50+ words about your Google Doodle.
+My google doodle will revolve around lucky items from around the world. Not only will the items be drawn and seen, but when hovered over will show where in the world the item is considered to be lucky in. Items and knowledge we think are common are not actually that common everywhere and I hope this google doodle celebrates the differences and similarities that lucky items embrace around the world.
 
 ## Collage
 
@@ -8,4 +8,4 @@
 
 ## Resources
 
-[Icon]()
+Example: [Icon]()
