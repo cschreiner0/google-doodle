@@ -8,4 +8,4 @@ My google doodle will revolve around lucky items from around the world. Not only
 
 ## Resources
 
-Example: [Icon]()
+[Icon]()
