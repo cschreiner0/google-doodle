@@ -32,17 +32,177 @@
   opacity: 1;
 }
 
+/* Start of Elephant and Thailand animation and CSS*/
+
+/* Elephant and Thailand div*/
+.lielephant {
+  width: 225px;
+  height: 250px;
+}
+
 /* Normal Elephant*/
-#Elephant1 {
+#elephant1 {
   position: absolute;
-  bottom: 0px;
+  bottom: 85px;
+  left: 30px;
   margin: 0px;
 }
 
 /* Elephant rotates and scales on hover*/
-#Elephant1:hover {
+#elephant1:hover {
   transform: rotateX(10deg) rotateY(10deg) scale(1.05);
 }
 
+/* map of Thailand SVG */
 #thailand {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  margin: 0px;
+}
+
+/* On hover of the div, the map appears, otherwise the map is not visable*/
+.lielephant #thailand {
+  opacity: 0;
+}
+
+.lielephant:hover #thailand {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* Start of Hand and Thailand div animation and CSS*/
+
+/* Hand SVG*/
+#hand {
+  position: absolute;
+  bottom: 77px;
+  left: 290px;
+  margin: 0px;
+}
+
+/* Israel Map SVG*/
+#israel {
+  position: absolute;
+  top: 60px;
+  left: 281px;
+  margin: 0px;
+}
+
+/* Animation: On hover of the div, the map appears, otherwise the map is not visable*/
+.lihand #israel {
+  opacity: 0;
+}
+
+.lihand:hover #israel {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* Start of Luckycat and Japan div animation and CSS*/
+
+/* Luckycat SVG*/
+#luckycat {
+  position: absolute;
+  bottom: 70px;
+  left: 480px;
+  margin: 0px;
+}
+
+/* Japan Map SVG*/
+#japan {
+  position: absolute;
+  top: 75px;
+  left: 443px;
+  margin: 0px;
+}
+/* Animation: On hover of the div, the map appears, otherwise the map is not visable*/
+.liluckycat #japan {
+  opacity: 0;
+}
+
+.liluckycat:hover #japan {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* Start of Clover and Ireland div animation and CSS*/
+
+/* Clover SVG*/
+#clover {
+  position: absolute;
+  bottom: 0px;
+  left: 630px;
+  margin: 0px;
+}
+
+/* Ireland Map SVG*/
+#ireland {
+  position: absolute;
+  top: 80px;
+  left: 626px;
+  margin: 0px;
+}
+
+/* Animation: On hover of the div, the map appears, otherwise the map is not visable*/
+.liclover #ireland {
+  opacity: 0;
+}
+
+.liclover:hover #ireland {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* Start of Worrydoll and Guatemala div animation and CSS*/
+
+/* Worrydoll SVG*/
+#worrydoll {
+  position: absolute;
+  bottom: 85px;
+  left: 820px;
+  margin: 0px;
+}
+/* Guatemala Map SVG*/
+#guatemala {
+  position: absolute;
+  top: -20px;
+  left: 842px;
+  margin: 0px;
+}
+/* Animation: On hover of the div, the map appears, otherwise the map is not visable*/
+.liworrydoll #guatemala {
+  opacity: 0;
+}
+
+.liworrydoll:hover #guatemala {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* Start of Pysanka egg and Ukraine div animation and CSS*/
+
+/* Pysanka Egg SVG*/
+#egg {
+  position: absolute;
+  bottom: 98px;
+  left: 1050px;
+  margin: 0px;
+}
+/* Ukraine Map SVG*/
+#ukraine {
+  position: absolute;
+  top: 70px;
+  right: 7px;
+  margin: 0px;
+}
+
+/* Animation: On hover of the div, the map appears, otherwise the map is not visable*/
+.liegg #ukraine {
+  opacity: 0;
+}
+
+.liegg:hover #ukraine {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
