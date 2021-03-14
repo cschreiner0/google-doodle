@@ -7,6 +7,12 @@
 
 #stage {
   outline: 1px dotted black;
+  background: linear-gradient(
+    180deg,
+    rgba(209, 251, 252, 1) 10%,
+    rgba(228, 252, 252, 1) 27%,
+    rgba(219, 244, 205, 1) 100%
+  );
 }
 
 /* Doodle Stage */
