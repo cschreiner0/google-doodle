@@ -7,6 +7,9 @@
 
 #stage {
   outline: 1px dotted black;
+  /*background-image: url(/img/unnamed.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;*/
   background: linear-gradient(
     180deg,
     rgba(209, 251, 252, 1) 10%,
