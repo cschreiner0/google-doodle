@@ -9,3 +9,7 @@ My google doodle will revolve around lucky items from around the world. Not only
 ## Resources
 
 [GSAPGreenSock](https://greensock.com/customease/)
+
+## Inspiration
+
+[Invaluable](https://www.invaluable.com/blog/good-luck-charms/)
